@@ -11,7 +11,7 @@ body {
 
 .navbar-default {
     background-color: #95d5d1;
-    border-color: #95d5d1;
+    border-color: #e7e7e7;
 }
 
 .h1, h1 {
@@ -38,4 +38,27 @@ li {
 a {
     color: #000000;
     text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
