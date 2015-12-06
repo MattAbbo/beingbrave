@@ -55,7 +55,7 @@
      height: auto;
      overflow: auto;
      /*min-height: auto;*/
-     background-color: #5caeb9;
+     /*background-color: #5caeb9;*/
  }
 
  /*#service h4 {
@@ -132,7 +132,8 @@
  	font-weight: 400;
   font-size: 12px;
   font-family: sans-serif;
-  /*padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  /*padding-top: 50px;*/
+  /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 
 }
 
@@ -147,6 +148,8 @@
  {
    font-size: 2.4em;
    word-wrap: normal;
+   color: #D40018;
+   font-weight: 300;
  }
 
  h2
@@ -189,6 +192,7 @@
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
+  color: black;
  }
 
  ol, ul {
@@ -278,24 +282,25 @@
  }
 
  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
- 	color: #00b3fe;
+ 	color: transparent;
  	background-color: transparent;
  }
 
  .navbar-default {
- 	background-color: #95d5d1;
+ 	background-color: transparent;
  	border-color: transparent;
  }
 
  .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+    background-color: transparent;
   }
 
  .header-logo
 {
-  width: 15vw;
-  padding-top: 6px;
-  padding-left: 6px;
+  /*width: 15vw;*/
+  /*padding-top: 6px;*/
+  /*padding-left: 6px;*/
+  align-items: center;
 }
 
 .album-cover
@@ -392,13 +397,13 @@
  }
 
  .btn-cta {
-   color: #fff;
-   background-color: Transparent;
-   border-color: white;
+   background-color: white;
+   border-color: black;
    margin: 0px;
    padding: 12px;
    font-size: 1.2em;
    text-align: left;
+      color: black !important;
  }
 
  .btn-cta:hover,
