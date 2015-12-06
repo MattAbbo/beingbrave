@@ -40,6 +40,14 @@ configure :development do
   activate :livereload
 end
 
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.permalink = "{title}.html"
+  blog.paginate = true
+  blog.page_link = "p{num}"
+  blog.per_page = 5
+end
+
 
 activate :directory_indexes
 

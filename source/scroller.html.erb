@@ -1,0 +1,31 @@
+---
+title: Home
+---
+
+<div class="container">
+  <div class="row">
+    <br>
+    <div class="col-lg-2">
+    </div>
+    <div class="col-lg-8">
+      <div class="caption">
+        <ul id="scroller">
+          <!-- <% data.home.home.each do |f| %>
+          <li><%= f %></li>
+          <% end %> -->
+        </ul>
+
+        <% blog.articles[0...20].each do |article| %>
+        <article>
+          <%= article.body %>
+          <br>
+        </article>
+        <% end %>
+
+        <div>
+        </div>
+        <div class="col-lg-2">
+        </div>
+      </div>
+      <br>
+    </div>

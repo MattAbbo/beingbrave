@@ -1,0 +1,36 @@
+---
+title: Home
+---
+
+<div class="container">
+  <div class="row">
+    <br>
+    <div class="col-lg-2">
+    </div>
+    <div class="col-lg-8">
+      <div class="caption">
+        <!-- <% blog.articles[1..10].each do |article| %>
+        <article>
+        <h1>
+        <a href="<%= article.url %>"><%= article.title %></a>
+      </h1>
+      <i><time><%= article.date.strftime('%e %b %Y') %></time></i>
+      <p><%= article.summary %></p>
+      <a href="<%= article.url %>">Read more</a>
+      <hr>
+    </article>
+    <% end %> -->
+
+    <h1>Friends</h1>
+    <ol>
+      <% data.home.home.each do |f| %>
+      <li><%= f %></li>
+      <% end %>
+    </ol>
+    <div>
+    </div>
+    <div class="col-lg-2">
+    </div>
+  </div>
+  <br><br>
+</div>
