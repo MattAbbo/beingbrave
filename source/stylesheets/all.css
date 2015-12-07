@@ -132,6 +132,7 @@
  	font-weight: 400;
   font-size: 12px;
   font-family: sans-serif;
+  position: relative;
   /*padding-top: 50px;*/
   /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 
@@ -150,6 +151,8 @@
    word-wrap: normal;
    color: #D40018;
    font-weight: 300;
+   padding-left: 16px;
+   padding-right: 18px;
  }
 
  h2
@@ -177,8 +180,8 @@
  }
 
  p {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
  	margin-bottom: 1em;
  	/*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;

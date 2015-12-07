@@ -39,9 +39,14 @@
 
   </head>
 
-  <body class="<%= page_classes %>">
+  <body class="<%= page_classes %>" data-spy="scroll" data-target="#navbar-scroll">
     <%= partial "layouts/_navbar" %>
-    <!-- <h5><%= current_page.data.title %></h5> -->
+      <!-- <div id="navbar-scroll">
+        <ul class="nav nav-tabs" role="tablist">
+          <a href="#the-brave-story">brave-story</a>
+          <a href="#volunteer">volunteer</a>
+        </ul>
+      </div> -->
     <%= yield %>
     <br><br>
     <%= partial "layouts/_footer" %>
