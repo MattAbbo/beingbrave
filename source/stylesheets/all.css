@@ -294,8 +294,12 @@
  	border-color: transparent;
  }
 
+ .navbar-default .navbar-toggle {
+    border-color: grey;
+}
+
  .navbar-default .navbar-toggle .icon-bar {
-    background-color: transparent;
+    background-color: black;
   }
 
  .header-logo
@@ -334,6 +338,7 @@
     border-color: #ccc;
     font-size: 18px;
     padding: 12px 24px;
+    width: 180px;
 }
 
  .header-group, .header-group-vertical {
