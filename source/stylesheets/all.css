@@ -266,11 +266,11 @@
  }
 
  .navbar-default .navbar-nav > li > a {
- 	color: white;
- 	/*font-weight: 700;*/
- 	/*font-size: 12px;*/
+   color: black !important;
+   text-shadow: -0.3px 0 white, 0 0.3px white, 0.3px 0 white, 0 0.3px white;
+  	font-weight: 700;
  	font-family: 'Montserrat', sans-serif;
- 	font-size: 14px;
+ 	font-size: 12px;
  	text-transform: uppercase;
  	text-decoration: none;
  	letter-spacing: 2px;
@@ -285,8 +285,8 @@
  }
 
  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
- 	color: transparent;
- 	background-color: transparent;
+   color: black;
+  	background-color: white;
  }
 
  .navbar-default {
