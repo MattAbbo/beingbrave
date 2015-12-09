@@ -133,7 +133,7 @@
   font-size: 12px;
   font-family: sans-serif;
   position: relative;
-  /*padding-top: 50px;*/
+  padding-top: 44px;
   /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 
 }
@@ -143,7 +143,9 @@
  	font-weight: 700;
   line-height: normal;
   padding-left: 6px;
-  padding-top: 40px; margin-top: -40px;
+  padding-top: 46px;
+  margin-top: -46px;
+
  }
 
  h1
@@ -154,7 +156,7 @@
    font-weight: 300;
    padding-left: 16px;
    padding-right: 18px;
- }
+  }
 
  h2
  {
@@ -291,7 +293,7 @@
  }
 
  .navbar-default {
- 	background-color: transparent;
+ 	background-color: whitesmoke;
  	border-color: transparent;
  }
 

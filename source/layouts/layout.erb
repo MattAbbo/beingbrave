@@ -19,12 +19,18 @@
     <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" %>
     <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Montserrat:400,700" %>
 
-    <script>
-      // window.addEventListener("hashchange", function() { scrollBy(0, -30) });
+    <!-- <script>
+      window.addEventListener("hashchange", function() { scrollBy(0, -30) });
 
-      // var shiftWindow = function() { scrollBy(0, -50) };
-      // if (location.hash) shiftWindow();
-      // window.addEventListener("hashchange", shiftWindow);
+      var shiftWindow = function() { scrollBy(0, -50) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script> -->
+
+    <script>
+    function scrollWin(x, y) {
+        window.scrollBy(x, y);
+    }
     </script>
 
   </head>
@@ -35,14 +41,7 @@
     <%= partial "layouts/_footer" %>
 
     <!-- jQuery / JavaScript -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
     <%= javascript_include_tag "jquery-1.11.3.min", "bootstrap.min" %>
 
-    <script>
-    function scrollWin(x, y) {
-        window.scrollBy(x, y);
-    }
-    </script>
-
-    </body>
+  </body>
 </html>
