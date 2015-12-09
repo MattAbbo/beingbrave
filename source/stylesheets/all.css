@@ -143,6 +143,7 @@
  	font-weight: 700;
   line-height: normal;
   padding-left: 6px;
+  padding-top: 40px; margin-top: -40px;
  }
 
  h1
